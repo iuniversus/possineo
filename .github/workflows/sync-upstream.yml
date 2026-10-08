@@ -1,9 +1,9 @@
 name: Sync Upstream Auto
 
 on:
-  schedule:
+  #schedule:
     # 每天 UTC 00:00 (北京时间早 8:00) 自动检查并同步原作者更新
-    - cron: '0 0 * * *'
+    #- cron: '0 0 * * *'
   workflow_dispatch: # 同时也保留手动点击触发按钮
 
 jobs:
